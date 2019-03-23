@@ -1,9 +1,9 @@
 /* this is to reset almost everything under the popup to a sane value */
 
-#rikaichan-window, #rikaichan-window * { 
+#rikaichan-window, #rikaichan-window * {
 	width: auto;
 	height: auto;
-	background: transparent;
+	background: #202020 !important;
 	color: #FFFFFF;
 	border: none !important;
 	border-spacing: 0px;
@@ -20,16 +20,16 @@
 	visibility: visible;
 }
 
-#rikaichan-window { 
+#rikaichan-window {
 	position: absolute;
 	z-index: 99992;
-	border: 1px solid #D0D0D0 !important;
+	border: 1px solid #999 !important;
 	padding: 4px;
 	background: #000000;
-	top: 5px; 
+	top: 5px;
 	left: 5px;
 	min-width: 100px;
-	border-radius: 5px;	
+	border-radius: 0;
 }
 
 /* used for word definitions */
@@ -47,11 +47,11 @@
 
 #rikaichan-window .w-conj {
 	color: #A0A0A0;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 #rikaichan-window .w-def {
-	font-size: 13px;
+	font-size: 10px;
 }
 
 #rikaichan-window .w-title {

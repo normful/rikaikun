@@ -1,8 +1,14 @@
+body {
+	background-color: #202020;
+}
+
 #rikaikun_options,
 #rikaikun_options td {
+	background-color: #202020;
 	padding: 0 10px;
 	font-family: sans-serif;
 	font-size: 10pt;
+	color: #FFFFFF;
 }
 
 #tabs {
@@ -13,7 +19,7 @@
 	display: inline;
 	padding: 5px;
 	margin-left: 3px;
-	background-color: #eee;
+	background-color: #202020;
 	border: 1px solid #999;
 	border-bottom: 0px;
 	font-style: italic;
@@ -29,14 +35,14 @@
 	font-style: normal;
 	color: #000;
 	font-weight: bold;
-	background-color: #dde;
+	background-color: #202020;
 }
 
 .tabContent.hide { display: none; }
 
 #options {
 	clear: both;
-	background-color: #dde;
+	background-color: #202020;
 	padding: 10px;
 	border: 1px solid black;
 }
